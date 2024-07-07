@@ -1,14 +1,17 @@
 .services-submenu {
-  width: 10rem;
+  width: 15rem;
+  height: 5vw;
   position: absolute;
-  top: 5vw;
+  top: 2.5vw;
   list-style: none;
   text-align: start;
+  /* margin-right: 0.1vw; */
 }
 
 .services-submenu li {
   background: #232323;
   cursor: pointer;
+  border-radius: 2px;
 }
 
 .services-submenu li a:hover {

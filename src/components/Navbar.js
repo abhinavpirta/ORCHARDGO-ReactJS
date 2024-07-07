@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-// import * as Icons from "react-icons/fa";
 import "./Navbar.css";
 import { navItems, plantingDropdown, sprayingDropdown, harvestingDropdown, pruningDropdown, graftingDropdown, fertilizingDropdown } from "./NavItems";
 import Dropdown from "./Dropdown";
@@ -15,6 +14,14 @@ function Navbar() {
     HARVESTING: harvestingDropdown,
     PRUNING: pruningDropdown,
     GRAFTING: graftingDropdown,
+  };
+
+  const handleDropdownToggle = (title) => {
+    if (openDropdown === title) {
+      setOpenDropdown(null);
+    } else {
+      setOpenDropdown(title);
+    }
   };
 
   return (
@@ -33,6 +40,7 @@ function Navbar() {
                   className={item.cName}
                   onMouseEnter={() => setOpenDropdown(item.title)}
                   onMouseLeave={() => setOpenDropdown(null)}
+                  onClick={() => handleDropdownToggle(item.title)} // Add onClick handler
                 >
                   <Link to={item.path}>{item.title}</Link>
                   {openDropdown === item.title && <Dropdown items={dropdownData[item.title]} />}

@@ -1,14 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family:'gilroy'; */
+    }
+    #main{
+    height: 100%;
+    width: 100%;
+    }
 #page1{
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100%;
     background-color: #111111;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(./images/wallpaperflare.com_wallpaper.jpg);
+    background-image: url(./peakpx.jpg);
     background-size: cover;
-    background-position: center 4% 40px;
+    background-position: center 4%;
     background-repeat: no-repeat;
     z-index: 10;
     
@@ -29,9 +39,9 @@
 
 
 #page1 h1{
-    font-size: 8.5vw;
+    font-size: 10vw;
     text-align: center;
-    line-height: 8.5vw;
+    line-height: 10vw;
     font-weight: 900;
     overflow: hidden;
     position: relative;
@@ -61,12 +71,12 @@
 }
 #page1some h4{
     font-weight: 400;
-    font-size: 1vw;
+    font-size: 2vw;
     text-transform: uppercase;
     padding: 5px 10px;
     border: 1px solid hsl(0, 0%, 100%);
     border-radius: 50px;
-    margin-top: 0.5vw;
+    margin-top: 5vw;
     
 }
 #page1some h4:nth-last-child(2){
@@ -85,11 +95,11 @@
     color: transparent;
 }
 #page2{
-    height: 100vh;
+    min-height: 80vh;
     width: 100%;
     background-color: #010101;
     position: relative;
-    padding: 0vw 10.5vw;
+    padding: 0vw 2vw;
     padding-bottom: 8vw;
     display: flex;
     align-items: center;
@@ -98,7 +108,7 @@
 }
 #page2-left{
     height: 100%;
-    width: 40%;
+    width: 50%;
     /* background-color: #333; */
     display: flex;
     align-items: flex-start;
@@ -111,15 +121,16 @@
     font-size: 0.8vw;
 }
 #page2-left h5{
-    font-size: 1.5vw;
+    font-size: 3vw;
     width: 75%;
     font-weight: 500;
     text-align: left;
     
 }
 #page2-right{
-    height: 100%;
+    height: 80%;
     width: 50%;
+    
     /* background-color: #333; */
     
 }
@@ -131,7 +142,7 @@
     border-bottom: 1px solid #333;
 }
 .right-elem h2{
-    font-size: 1.4vw;
+    font-size: 3vw;
     font-weight: 400;
 }
 .right-elem img{

@@ -8,16 +8,16 @@ html, body {
 height: 100%;
 width: 100%;
 }
-#page6 {
+#page6prep {
   min-height: 100vh;
   width: 100%;
   /* background-color: #111; */
   background-color: #fff;
-  padding: 10vh 10vw;
+  padding: 10vh 2vw;
   padding-top: 20vh;
 }
 
-#page6 > h1 {
+#page6prep > h1 {
   font-size: 5.5vw;
   text-align: center;
   color: #000;
@@ -29,7 +29,7 @@ width: 100%;
   border-bottom: 1px solid #dadada;
 }
 
-#page6-content {
+#page6prep-content {
   /* background-color: red; */
   color: #000;
   display: flex;
@@ -38,13 +38,13 @@ width: 100%;
   padding: 8vh 0;
 }
 
-#page6-content #right-6 {
+#page6prep-content #right-6 {
   width: 100%;
   /* padding-left: 20vw; */
 }
 
-#page6-content #right-6 p {
-  font-size: 1.5vw;
+#page6prep-content #right-6 p {
+  font-size: 4vw;
   color: #000;
   margin-bottom: 5vh;
   width: 100%;
@@ -75,8 +75,8 @@ width: 100%;
   margin-left: 0.5vw;
 }
 
-#page6-bottom {
-  height: 44vh;
+#page6prep-bottom {
+  min-height: 44vh;
   width: 100%;
   /* background-color: red; */
   border-top: 1px solid #dadada;
@@ -86,57 +86,57 @@ width: 100%;
   /* background-color: green; */
   
 }
-#btm6-part1{
+#btm6prep-part1{
   border-right: 1px solid #dadada;
   width: 0%;
   /* background-color: red; */
   height: 100%;
 }
-#btm6-part2{
+#btm6prep-part2{
   border-right: 1px solid #dadada;
   width: 28%;
   /* background-color: red; */
   height: 100%;
 }
-#btm6-part3{
+#btm6prep-part3{
   border-right: 1px solid #dadada;
   width: 28%;
   /* background-color: red; */
   height: 100%;
 }
-#btm6-part4{
+#btm6prep-part4{
   border-right: 1px solid #dadada;
   width: 28%;
   /* background-color: red; */
   height: 100%;
 }
-#btm6-part5{
+#btm6prep-part5{
   /* border-right: 1px solid #dadada; */
   width: 0%;
   /* background-color: red; */
   height: 100%;
 }
-.btm6-parts{
+.btm6prep-parts{
   padding: 3vh 0.6vw;
 }
-.btm6-parts h5{
+.btm6prep-parts h5{
   color: #000;
   font-weight: 500;
-  font-size: 0.9vw;
+  font-size: 2.5vw;
   margin-bottom: 4vh;
 }
-.btm6-parts h4{
+.btm6prep-parts h4{
   background-color: #111;
   width: 75%;
   padding: 5px 10px;
   border-radius: 50px;
   margin-bottom: 0.3vh;
-  font-size: 0.85vw;
+  font-size: 2vw;
   font-weight: 500;
   display: flex;
   align-items: center;
 }
-.btm6-parts span{
+.btm6prep-parts span{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -147,22 +147,29 @@ width: 100%;
   border-radius: 50%;
   margin-right: 1vw;
 }
-#btm6-part2 h4:nth-child(2){
+/* soilprep.css */
+#btm6prep-part2 h4, #btm6prep-part3 h4, #btm6prep-part4 h4 {
+  will-change: transform, opacity;
+}
+
+
+
+#btm6prep-part2 h4:nth-child(2){
   transform: translateX(0);
 }
-#btm6-part2 h4:nth-child(3){
+#btm6prep-part2 h4:nth-child(3){
   transform: translateX(10%);
 }
-#btm6-part2 h4:nth-child(4){
+#btm6prep-part2 h4:nth-child(4){
   transform: translateX(20%);
 }
-#btm6-part2 h4:nth-child(5){
+#btm6prep-part2 h4:nth-child(5){
   transform: translateX(30%);
 }
-#btm6-part2 h4:nth-child(6){
+#btm6prep-part2 h4:nth-child(6){
   transform: translateX(40%);
 }
-#btm6-part2 h4:nth-child(7){
+#btm6prep-part2 h4:nth-child(7){
   transform: translateX(50%);
 }
 /* #page7{
@@ -171,40 +178,40 @@ width: 100%;
 } */
 
 
-#btm6-part3 h4:nth-child(2){
+#btm6prep-part3 h4:nth-child(2){
   transform: translateX(0);
 }
-#btm6-part3 h4:nth-child(3){
+#btm6prep-part3 h4:nth-child(3){
   transform: translateX(10%);
 }
-#btm6-part3 h4:nth-child(4){
+#btm6prep-part3 h4:nth-child(4){
   transform: translateX(20%);
 }
-#btm6-part3 h4:nth-child(5){
+#btm6prep-part3 h4:nth-child(5){
   transform: translateX(30%);
 }
-#btm6-part3 h4:nth-child(6){
+#btm6prep-part3 h4:nth-child(6){
   transform: translateX(40%);
 }
-#btm6-part3 h4:nth-child(7){
+#btm6prep-part3 h4:nth-child(7){
   transform: translateX(50%);
 }
 
-#btm6-part4 h4:nth-child(2){
+#btm6prep-part4 h4:nth-child(2){
   transform: translateX(0);
 }
-#btm6-part4 h4:nth-child(3){
+#btm6prep-part4 h4:nth-child(3){
   transform: translateX(10%);
 }
-#btm6-part4 h4:nth-child(4){
+#btm6prep-part4 h4:nth-child(4){
   transform: translateX(20%);
 }
-#btm6-part4 h4:nth-child(5){
+#btm6prep-part4 h4:nth-child(5){
   transform: translateX(30%);
 }
-#btm6-part4 h4:nth-child(6){
+#btm6prep-part4 h4:nth-child(6){
   transform: translateX(40%);
 }
-#btm6-part4 h4:nth-child(7){
+#btm6prep-part4 h4:nth-child(7){
   transform: translateX(50%);
 }

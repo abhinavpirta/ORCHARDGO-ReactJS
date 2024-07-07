@@ -2,7 +2,6 @@
   "name": "reacthtml",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://abhinavpirta.io/reacthtml",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -10,9 +9,12 @@
     "gh-pages": "^6.1.1",
     "gsap": "^3.12.5",
     "react": "^18.3.1",
+    "react-countup": "^6.5.3",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.24.1",
     "react-scripts": "5.0.1",
+    "react-scroll-trigger": "^0.6.14",
+    "styled-components": "^6.1.11",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -42,7 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "ajv": "^7.2.4"
   }
 }
-
